@@ -1,0 +1,22 @@
+<div class="surface-section grid grid-nogutter px-4 py-8 md:px-6 lg:px-8 bg-no-repeat bg-cover" style="background: url({{services[serviceIdNum-1].serviceImagePath}}); background-position: center top">
+    <div class="col-12 lg:col-6 p-4 flex flex-column shadow-2 border-round" style="background: rgba(255, 255, 255, 0.9);">
+        <div class="text-black-alpha-90 text-3xl font-bold mb-4">{{services[serviceIdNum - 1].serviceName}}</div>
+        <p class="text-black-alpha-60 text-xl line-height-3">{{services[serviceIdNum - 1].serviceDescription}}</p>
+        <a tabindex="0" class="cursor-pointer text-black-alpha-90 text-2xl font-medium mt-3 mb-2 py-3 flex justify-content-between w-full border-black-alpha-10 border-bottom-1 hover:text-black-alpha-60 transition-duration-150"  pStyleClass="@next" enterClass="hidden" enterActiveClass="slidedown" leaveToClass="hidden" leaveActiveClass="slideup">{{services[serviceIdNum-1].serviceBoldOne}}<i class="pi pi-fw pi-plus text-3xl"></i></a>
+        <div class="overflow-hidden transition-all transition-duration-400 transition-ease-in-out">
+            <ul class="list-none">
+                <li class="text-black-alpha-60 line-height-3 flex align-items-center mb-3"><i class="pi pi-circle-fill mr-3" style="font-size:7px;"></i>{{services[serviceIdNum-1].serviceBulletOneOne}}</li>
+                <li class="text-black-alpha-60 line-height-3 flex align-items-center my-3"><i class="pi pi-circle-fill mr-3" style="font-size:7px;"></i>{{services[serviceIdNum-1].serviceBulletOneTwo}}</li>
+                <li class="text-black-alpha-60 line-height-3 flex align-items-center my-3"><i class="pi pi-circle-fill mr-3" style="font-size:7px;"></i>{{services[serviceIdNum-1].serviceBulletOneThree}}</li>
+            </ul>
+        </div>
+        <a tabindex="0" class="cursor-pointer text-black-alpha-90 text-2xl font-medium mb-2 py-3 flex justify-content-between w-full border-black-alpha-10 border-bottom-1 hover:text-black-alpha-60 transition-duration-150"  pStyleClass="@next" enterClass="hidden" enterActiveClass="slidedown" leaveToClass="hidden" leaveActiveClass="slideup">{{services[serviceIdNum-1].serviceBoldTwo}}<i class="pi pi-fw pi-plus text-3xl"></i></a>
+        <div class="overflow-hidden hidden transition-all transition-duration-400 transition-ease-in-out">
+            <ul class="list-none">
+                <li class="text-black-alpha-60 line-height-3 flex align-items-center mb-3"><i class="pi pi-circle-fill mr-3" style="font-size:7px;"></i>{{services[serviceIdNum-1].serviceBulletTwoOne}}</li>
+                <li class="text-black-alpha-60 line-height-3 flex align-items-center my-3"><i class="pi pi-circle-fill mr-3" style="font-size:7px;"></i>{{services[serviceIdNum-1].serviceBulletTwoTwo}}</li>
+                <li class="text-black-alpha-60 line-height-3 flex align-items-center my-3"><i class="pi pi-circle-fill mr-3" style="font-size:7px;"></i>{{services[serviceIdNum-1].serviceBulletTwoThree}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

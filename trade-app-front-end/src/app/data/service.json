@@ -1,0 +1,73 @@
+[
+    {
+        "serviceId":1,
+        "serviceName": "Birthday Parties",
+        "serviceDescription":"DJing a birthday party involves providing music and entertainment for the guests. The DJ will typically arrive early to set up their equipment, which includes speakers, a mixer, and a laptop or other music source. They will also work with the host to create a playlist that includes the birthday person's favorite songs and other popular hits."
+        ,"serviceImagePath":"../../../assets/images/birthday-party.jpg",
+        "serviceBoldOne":"What does the process look like?",
+        "serviceBoldTwo":"What do the services come with?",
+        "serviceBoldThree":"Are there any other services that I can include?",
+        "serviceBulletOneOne":"Consultation/Preparation : The DJ will meet with the host to discuss the party's theme, music preferences, and any special requests. The DJ will create a playlist and gather all necessary equipment.",
+        "serviceBulletOneTwo":"Setup/Tear down :  The DJ will arrive early to set up their equipment and test the sound system.  The DJ will pack up their equipment and leave the venue once the party is over.",
+        "serviceBulletOneThree":"The DJ will play music and provide entertainment throughout the party.",
+        "serviceBulletTwoOne":"Lighting: You can provide lighting services to enhance the party's atmosphere and create a more immersive experience for guests.",
+        "serviceBulletTwoTwo":".Karaoke: You can offer karaoke services to allow guests to sing along to their favorite songs and add an interactive element to the party.",
+        "serviceBulletTwoThree":"MC services: You can act as the master of ceremonies for the party, making announcements, introducing guests, and keeping the party on schedule.",
+        "serviceBulletThreeOne":"We can set you up with google workspace this will come with an email that is suffixed with your new domain name ex. firstname-lastname@businessname.com",
+        "serviceBulletThreeTwo":"We also offer inventory management services as well as service scheduling",
+        "serviceBulletThreeThree":"From the start of the design process to the end we make sure we follow all search engine optimization best practices to make sure your business has the best chance to show up in the search engine results"
+    },
+    {
+        "serviceId":2,
+        "serviceName": "Bar/Nightcubs Gigs",
+        "serviceDescription":"DJing at a bar/nightclub involves providing music and entertainment for the patrons. The DJ will typically arrive early to set up their equipment, which includes speakers, a mixer, and a laptop or other music source. They will also work with the venue to create a playlist that fits the venue's style and atmosphere."
+        ,"serviceImagePath":"../../../assets/images/nightclub.jpg",
+        "serviceBoldOne":"What does the process look like?",
+        "serviceBoldTwo":"What does it come with?",
+        "serviceBoldThree":"How is the implementation handled?",
+        "serviceBulletOneOne":"Consultation/Preparation : The DJ will meet with the venue to discuss the venue's style, music preferences, and any special requests. The DJ will create a playlist and gather all necessary equipment. ",
+        "serviceBulletOneTwo":"ASetup/Tear down : The DJ will arrive early to set up their equipment and test the sound system. The DJ will pack up their equipment and leave the venue once the night is over.",
+        "serviceBulletOneThree":"Performance :  The DJ will play music and provide entertainment throughout the night.",
+        "serviceBulletTwoOne":"Mixing: You will use your skills as a DJ to mix and blend songs seamlessly, creating a continuous flow of music that keeps the energy high.",
+        "serviceBulletTwoTwo":"MC services: You may act as the master of ceremonies for the night, making announcements, introducing guest DJs or performers, and keeping the party on schedule. ",
+        "serviceBulletTwoThree":"Crowd interaction: You may engage with the crowd by encouraging them to dance, leading group dances, or taking requests.",
+        "serviceBulletThreeOne":"Once you decide to go ahead with our services we will gather all of your company needs and start getting to work on designing the components of your system",
+        "serviceBulletThreeTwo":"We will setup and register you a website domain and host it through google cloud for no additional charge",
+        "serviceBulletThreeThree":"Once everything is done on our end we will allow you access to the system to make sure it meets your standars before we deploy it on the internet"
+    },
+    {
+        "serviceId":3,
+        "serviceName": "Bar/Nightclub Gigs",
+        "serviceDescription":"If you have many clients with many jobs to keep track of, we have a solution for you. We have a service scheduler that allows you to keep track of all of your clients and organize all of your clients jobs and access it from anywhere you have internet connection."
+        ,"serviceImagePath":"../../../assets/images/nightclub.jpg",
+        "serviceBoldOne":"What this includes?",
+        "serviceBoldTwo":"How can I access?",
+        "serviceBoldThree":"How is the implementation handled?",
+        "serviceBulletOneOne":"Private admin windows on your website where you can view and access your service scheduling software",
+        "serviceBulletOneTwo":"Any changes made to your service descriptions will automatically update on your client facing website",
+        "serviceBulletOneThree":"Make changes to any services, or add or delete new or old services",
+        "serviceBulletTwoOne":"You can access your service scheduling system from anywhere you have WiFi or stable internet connection",
+        "serviceBulletTwoTwo":"There is no need to download any software to use our product, your system will live in the cloud at Amazon Web Services ",
+        "serviceBulletTwoThree":"Once your system in implemented you will be given your own access credentials to get into your service scheduling system",
+        "serviceBulletThreeOne":"Once you decide to go ahead with our services we will gather all of your company needs and start getting to work on designing the components of your system",
+        "serviceBulletThreeTwo":"We will setup and register you a website domain and host it through google cloud for no additional charge",
+        "serviceBulletThreeThree":"Once everything is done on our end we will allow you access to the system to make sure it meets your standars before we deploy it on the internet"
+    },
+    {
+        "serviceId":4,
+        "serviceName": "Weddings",
+        "serviceDescription":"If your business is having trouble getting noticed on the web, we have a number of solutions to that problem. We prioritze all of our website builds around search engine optimization, this allows your business to have the best opportunity to get noticed on the internet."
+        ,"serviceImagePath":"../../../assets/images/wedding.jpg",
+        "serviceBoldOne":"How does it work?",
+        "serviceBoldTwo":"What this includes?",
+        "serviceBoldThree":"What does the process look like?",
+        "serviceBulletOneOne":"When someone searches for something on a search engine like google the search engine populates the page with results related to your search.",
+        "serviceBulletOneTwo":"It is our job to make sure we use the correct keywords and website design strategy to put your business in the best position to show up first for potential clients",
+        "serviceBulletOneThree":"Search engine optimization is the best way to gain organic clients because we simply put the products/services they are looking for right in front of them when they search for it",
+        "serviceBulletTwoOne":"Careful inspection of your entire site looking for anything that will prevent positive search engine results.",
+        "serviceBulletTwoTwo":"Recomendations/implementations of any of our findings",
+        "serviceBulletThreeOne":"Once you decide to go ahead with our services we will go over your site and point out a number of vulnerabilities that we can change",
+        "serviceBulletThreeTwo":"Once we agree on the changes that need to be made we will need access to your websites source code (We can help finding this) and make the changes there",
+        "serviceBulletThreeThree":"Once the changes have been made we will deploy the new website with the changes to the internet"
+    }
+]

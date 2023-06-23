@@ -1,0 +1,22 @@
+<div>
+    <div  class="surface-section flex flex-column lg:flex-row px-4 py-8 md:px-6 lg:px-8 align-items-center">
+        <img src="../../../assets/images/birthday-party.jpg" class="h-25rem border-round hidden lg:block">
+        <div style="border-radius: 1rem; display: block; background: linear-gradient(0deg, rgba(147, 1, 177, 0.5), rgba(11, 0, 12, 0.5)), linear-gradient(92.54deg, #8600af 47.88%, #0f0014 100.01%)" class="bg-no-repeat bg-cover lg:border-noround-left border-round-xl px-4 py-7 sm:px-7 md:px-6">
+            <div class="text-indigo-50 text-4xl font-semibold mb-3" style="display: block;">{{services[0].serviceName}}</div>
+            <p class="text-indigo-100 mt-0 mb-5 line-height-3">{{services[0].serviceDescription}}</p>
+            <button type="button" pButton pRipple icon="pi pi-wallet" label="Explore Service" class="p-button-warning px-5 font-bold white-space-nowrap" [routerLink] = "['/service-details',services[0].serviceId+'-'+services[0].serviceName]" style="cursor: pointer;"></button>
+            </div>
+            
+    </div>
+</div>
+<div>
+    <div  class="surface-section flex flex-column lg:flex-row px-4 py-8 md:px-6 lg:px-8 align-items-center">
+        
+        <div style="border-radius: 1rem; display: block; background: linear-gradient(0deg, rgba(147, 1, 177, 0.5), rgba(11, 0, 12, 0.5)), linear-gradient(92.54deg, #8600af 47.88%, #0f0014 100.01%)" class="bg-no-repeat bg-cover lg:border-noround-left border-round-xl px-4 py-7 sm:px-7 md:px-6">   <div class="text-indigo-50 text-4xl font-semibold mb-3" style="display: block;">{{services[1].serviceName}}</div>
+            <p class="text-indigo-100 mt-0 mb-5 line-height-3">{{services[1].serviceDescription}}</p>
+            <button type="button" pButton pRipple icon="pi pi-wallet" label="Explore Service" class="p-button-warning px-5 font-bold white-space-nowrap" [routerLink] = "['/service-details',services[1].serviceId+'-'+services[1].serviceName]" style="cursor: pointer;"></button>
+        </div>
+        <img src="../../../assets/images/nightclub.jpg" class="h-25rem border-round hidden lg:block">
+    </div>
+</div>
+

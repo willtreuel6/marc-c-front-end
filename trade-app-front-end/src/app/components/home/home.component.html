@@ -1,0 +1,51 @@
+<div class="relative p-8 overflow-hidden">
+    <img src="../../../assets/images/background-gif.gif" alt="Image" class="absolute top-0 left-0 w-auto h-full block md:w-full">
+
+    <div class="text-center my-6 relative">
+        <div class="text-6xl text-primary font-bold mb-4">DJ NMC</div>
+        <p class="mt-0 mb-4 line-height-3 text-center mx-auto text-white" style="max-width:500px">Introducing NMC, your premier DJ for unforgettable events and electric atmospheres! With a passion for music that knows no bounds, NMC brings a unique blend of talent, style, and energy to every occasion. From pulsating beats to smooth melodies, NMC seamlessly weaves together diverse genres and eras, creating a sonic tapestry that keeps the dance floor alive and your guests grooving.</p>
+        
+        <button pButton pRipple label="Learn More" type="button" routerLink="about"></button>
+
+    </div>
+</div>
+<div class="surface-ground px-4 py-8 md:px-6 lg:px-8">
+    <div class="flex flex-wrap relative overflow-hidden" style="border-radius:1rem; background:radial-gradient(100% 1126.49% at 100% 0%, rgba(1, 192, 33, 0.4) 0%, rgba(73, 196, 2, 0) 100%), #000000;">
+        <div class="px-6 py-8">
+            <span class="uppercase text-white font-bold">Spotify</span>
+            <div class="text-white text-medium text-5xl mt-3 mb-5">Check out Marc on Spotify</div>
+            <a type="button" pButton pRipple label="Spotify" class="block mt-7 mb-7 lg:mb-0 p-button-rounded p-button-success p-button-lg font-medium" href="tel:+1-603-998-6741"></a>
+        </div>
+    </div>
+</div>
+
+<div class="surface-section px-4 py-6 md:px-6">
+    <div class="text-2xl text-900 font-bold mb-2 text-center">FAQ</div>
+    <div class="text-700 line-height-3 mb-6 text-center">Listed below are commonly answered questions by our employees</div>
+    <p-accordion styleClass="mb-6" [activeIndex]="0">
+        <p-accordionTab header="Where do you provide services to?">
+            <div class="line-height-3">We are located in New Hampshire but are willing to provide services throughout all northeast states</div>
+        </p-accordionTab>
+        <p-accordionTab header="How much do you charge?">
+            <div class="line-height-3">All events will vary, I charge a single flat fee that is agreed on prior to the night of the event</div>
+        </p-accordionTab>
+        <p-accordionTab header="Do you create any of your own music?">
+            <div class="line-height-3">Yes, I post all of my creations to my spotify page @MarcCataldo4</div>
+        </p-accordionTab>
+        <p-accordionTab header="What kinds of music do you play?">
+            <div class="line-height-3">I curate a specific playlist for the venue depending on the wants and needs of my customers</div>
+        </p-accordionTab>
+    </p-accordion>
+    <div class="border-1 border-round surface-border p-5 surface-50 flex flex-column align-items-center">
+        <p-avatarGroup styleClass="text-center">
+            <p-avatar image="../../../assets/images/avatar-m-2@2x.png" shape="circle" size="large"></p-avatar>
+            <p-avatar image="../../../assets/images/avatar-f-1@2x.png" shape="circle" size="large"></p-avatar>
+            <p-avatar image="../../../assets/images/avatar-m-1@2x.png" shape="circle" size="large"></p-avatar>
+            <p-avatar image="../../../assets/images/avatar-m-4@2x.png" shape="circle" size="large"></p-avatar>
+            <p-avatar image="../../../assets/images/avatar-f-4@2x.png" shape="circle" size="large"></p-avatar>
+        </p-avatarGroup>
+        <div class="font-medium text-xl mt-5 mb-3">Still Interested?</div>
+        <p class="text-700 line-height-3 mt-0 mb-5">Be the next of many satisfied customers to work with Marc DJ Services</p>
+        <button pButton pRipple label="Contact Us" icon="pi pi-send" class="p-button-help" routerLink="contact"></button>
+    </div>
+</div>
